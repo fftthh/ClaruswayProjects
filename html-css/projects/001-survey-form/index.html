@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">NETFLİX</h1>
+        <h3 id="description">Tell me about yourself</h3>
+        <div>
+            <form action="" id="survey-form">
+                <div class="box">
+                    <p>Name</p>
+                    <input type="text" name="username" id="username" placeholder="Enter your name">
+                </div>
+                <div class="box">
+                    <p>Age</p>
+                    <input type="text" name="age" id="age" placeholder="Age">
+                </div>
+                <div class="box">
+                    <p>Email</p>
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="box">
+                    <p>Contentype</p>
+                    <select name="contentype" id="contentype">
+                    <option value="horror">horror</option>
+                    <option value="animation">animation</option>
+                    <option value="sf">sf</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Movie Type</p>
+                    <input type="checkbox" name="movietype" id="mv_type_comedy" value="Comedy">Comedy<br>
+                    <input type="checkbox" name="movietype" id="mv_type_action" value="Action">Action<br>
+                    <input type="checkbox" name="movietype" id="mv_type_romance" value="Romance" checked>Romance<br>
+                </div>
+                <div class="box">
+                    <p>Gender</p>
+                    <input type="radio" name="gender" id="gender_male">Male<br>
+                    <input type="radio" name="gender" id="gender_female">Female<br>
+                    <input type="radio" name="gender" id="gender_other">Other<br>
+                </div>
+                <div class="box">
+                    <p>Feedback</p>
+                    <textarea name="feedback" id="feedback" cols="20" rows="4"></textarea><br><br>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
