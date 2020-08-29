@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIn</title>
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
     <div id="container">
-        <h1 id="title">NETFLİX</h1>
-        <h3 id="description">Tell me about yourself</h3>
+        <h1 id="title">NET<span>FLİX</span></h1>
+        <h3 id="description">Thank you for signing up at Netflix.Tell us more about yourself</h3>
         <div>
             <form action="" id="survey-form">
                 <div class="box">
@@ -18,18 +20,17 @@
                 </div>
                 <div class="box">
                     <p>Age</p>
-                    <input type="text" name="age" id="age" placeholder="Age">
+                    <input type="number" name="age" id="age" placeholder="Age">
                 </div>
                 <div class="box">
                     <p>Email</p>
-                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
                 </div>
                 <div class="box">
-                    <p>Contentype</p>
-                    <select name="contentype" id="contentype">
-                    <option value="horror">horror</option>
-                    <option value="animation">animation</option>
-                    <option value="sf">sf</option>
+                    <p>Content type</p>
+                    <select name="contenttype" id="conttentype">
+                    <option value="horror">series</option>
+                    <option value="animation">movies</option>              
                     </select>
                 </div>
                 <div class="box">
@@ -46,10 +47,10 @@
                 </div>
                 <div class="box">
                     <p>Feedback</p>
-                    <textarea name="feedback" id="feedback" cols="20" rows="4"></textarea><br><br>
+                    <textarea name="feedback" id="feedback" cols="50" rows="5" placeholder="any comment here"></textarea><br><br>
                 </div>
-                <input type="submit" value="Submit">
-            </form>
+                <input type="submit" value="Submit" id="submit">
+            </form>s
         </div>
     </div>
 </body>
